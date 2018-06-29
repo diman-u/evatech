@@ -175,7 +175,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
                             <?php $item = CFile::GetFileArray($item); ?>
                             <img src="<?= $item['SRC']?>" alt="" class="thumb-item">
                     <?php unset($item); endforeach; ?>
-                </div>4
+                </div>
 
                 <div class="mainslider">
 <!--добавить тэги-->
@@ -238,7 +238,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 
                                 <?php endforeach;?>
                         </div>
-                        <a href="#" class="link">Таблица размеров</a>
+						<a href="/sizes/" class="link">Таблица размеров</a>
                     </div>
 
                     <div class="action-btns">

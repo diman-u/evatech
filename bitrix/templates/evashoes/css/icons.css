@@ -1,0 +1,74 @@
+.icon:before { content: ''; display: block; width: 17px; height: 17px; background: url("../icons/spritesheet.png"); }
+
+.icon-tel:before { top: 2px; width: 16px; height: 16px; background-position: -318px -5px; }
+
+.icon-tel-white:before { top: 2px; width: 16px; height: 16px; background-position: -344px -5px; }
+
+.icon-tel-orange:before { top: 2px; width: 16px; height: 16px; background: url(../icons/tel-orange.png) no-repeat center; }
+
+.icon-mail:before { top: 5px; width: 16px; height: 11px; background-position: -151px -5px; }
+
+.icon-mail-white:before { top: 5px; width: 16px; height: 11px; background-position: -177px -5px; }
+
+.icon-mail-orange:before { top: 5px; width: 16px; height: 11px; background: url(../icons/mail-orange.png) no-repeat center; }
+
+.icon-message:before { top: 5px; width: 20px; height: 18px; background-position: -203px -5px; }
+
+.icon-clock:before { top: 2px; width: 17px; height: 18px; background-position: -39px -5px; }
+
+.icon-clock-white:before { top: 2px; width: 17px; height: 18px; background-position: -66px -5px; }
+
+.icon-bag:before { top: 2px; width: 24px; height: 29px; background-position: -5px -5px; }
+
+.icon-search:before { top: 2px; width: 20px; height: 19px; background-position: -268px -5px; }
+
+.icon-search:after { content: ''; top: 2px; width: 20px; height: 19px; background: url(../icons/search-hover.png); opacity: 0; }
+
+.icon-search:hover:before { background: url(../icons/search-hover.png); }
+
+.icon-user:before { top: 2px; width: 21px; height: 21px; background-position: -370px -5px; }
+
+.icon-user:after { content: ''; top: 2px; width: 21px; height: 21px; background: url(../icons/user-hover.png); }
+
+.icon-user:hover:before { background: url(../icons/user-hover.png); }
+
+.icon-ig:before { top: 2px; width: 23px; height: 23px; background-position: -93px -5px; }
+
+.icon-ok:before { top: 2px; width: 15px; height: 24px; background-position: -233px -10px; }
+
+.icon-vk:before { top: 2px; width: 31px; height: 17px; background-position: -401px -5px; }
+
+.icon-youtube:before { top: 2px; width: 25px; height: 24px; background-position: -442px -5px; }
+
+.icon-like:before { top: 2px; width: 15px; height: 13px; background-position: -126px -5px; }
+
+.icon-like:after { content: ''; top: 2px; width: 15px; height: 13px; background: url(../icons/like-active.png) no-repeat; opacity: 0; }
+
+.icon-like.active:before { background: url(../icons/like-active.png) no-repeat; }
+
+.icon-stats:before { top: 2px; width: 10px; height: 12px; background-position: -298px -5px; }
+
+.icon-stats:after { content: ''; top: 2px; width: 10px; height: 12px; background: url(../icons/stats-active.png) no-repeat; opacity: 0; }
+
+.icon-stats.active:before { background: url(../icons/stats-active.png) no-repeat; }
+
+.icon-reload:before { width: 15px; height: 15px; display: inline-block; vertical-align: middle; margin-top: -3px; background: url(../icons/icon-reload.png) no-repeat center; margin-right: 4px; }
+
+.icon-reload.anim:before { animation: a360 90s infinite linear; }
+
+.icon-close:before { width: 17px; height: 17px; display: block; background: url(../icons/close.png) no-repeat center; }
+
+.icon-done:before { width: 22px; height: 17px; display: block; background: url(../icons/done.png) no-repeat center; }
+
+.icon-card:before { width: 50px; height: 44px; display: block; background: url(../icons/card.png) no-repeat center; }
+
+.icon-mark:before { width: 15px; height: 11px; display: block; background: url(../icons/mark.png) no-repeat center; }
+
+.icon-placeholder:before { width: 13px; height: 19px; display: block; background: url(../icons/placeholder.png) no-repeat center; }
+
+.icon-courer:before { width: 50px; height: 53px; display: block; background: url(../icons/courer.png) no-repeat center; }
+
+.icon-fastsearch:before { width: 18px; height: 23px; display: inline-block; background: url(../icons/search-fast.png) no-repeat center; }
+
+@keyframes a360 { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(36000deg); } }
